@@ -5,7 +5,7 @@
 
 int [] GenerateArray ()
 {
-    int [] array = new int [12];
+    int [] array = new int [4];
     for (int i = 0; i<array.Length; i++)
     {
         array[i]=new Random().Next(100,1000);
